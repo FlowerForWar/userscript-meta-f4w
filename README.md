@@ -2,7 +2,7 @@
 
 ### Fork from the original [userscript-meta](https://github.com/pd4d10/userscript-meta) by [pd4d10](https://github.com/pd4d10).
 
-#### Changes made in the `stringify` function:
+#### Changes made in the `stringify` function only:
 
 - Give more space between the key and the value
 - Trim the value for keys that don't have value, like `@noframes`.
