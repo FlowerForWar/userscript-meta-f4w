@@ -29,7 +29,7 @@ npm install userscript-meta-f4w --save
 parse userscript metadata to an object.
 
 ```js
-const userscript = require('userscript-meta');
+const userscript = require('userscript-meta-f4w');
 
 userscript.parse(`
   // ==UserScript==
@@ -58,7 +58,7 @@ Produces
 ### stringify(object)
 
 ```js
-const { stringify } = require('userscript-meta');
+const { stringify } = require('userscript-meta-f4w');
 const { name, version, description, author, license } = require('./package.json');
 
 const metadata = {
