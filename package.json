@@ -1,6 +1,6 @@
 {
   "name": "userscript-meta-f4w",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse and stringify Userscript metadata.",
   "main": "index.js",
   "scripts": {
