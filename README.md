@@ -20,7 +20,7 @@ npm install userscript-meta --save
 parse userscript metadata to an object.
 
 ```js
-const userscript = require('userscript-meta')
+const userscript = require('userscript-meta');
 
 userscript.parse(`
   // ==UserScript==
@@ -29,7 +29,7 @@ userscript.parse(`
   // @match http://www.example.com/*
   // @match http://www.example.org/*
   // ==/UserScript==
-`)
+`);
 ```
 
 equals to
@@ -49,16 +49,13 @@ equals to
 ### stringify(object)
 
 ```js
-const userscript = require('userscript-meta')
+const userscript = require('userscript-meta');
 
 userscript.stringify({
   name: 'Userscript name',
   version: '1.0',
-  match: [
-    'http://www.exmaple.com/*',
-    'http://www.exmaple.org/*',
-  ]
-})
+  match: ['http://www.exmaple.com/*', 'http://www.exmaple.org/*'],
+});
 ```
 
 equals to

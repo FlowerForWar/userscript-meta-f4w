@@ -1,5 +1,5 @@
 {
-  "name": "userscript-meta",
+  "name": "userscript-meta-f4w",
   "version": "1.0.1",
   "description": "Parse and stringify Userscript metadata.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pd4d10/userscript-meta.git"
+    "url": "git+https://github.com/FlowerForWar/userscript-meta-f4w.git"
   },
   "keywords": [
     "userscript",
@@ -22,9 +22,9 @@
   "author": "pd4d10 <pd4d10@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pd4d10/userscript-meta/issues"
+    "url": "https://github.com/FlowerForWar/userscript-meta-f4w/issues"
   },
-  "homepage": "https://github.com/pd4d10/userscript-meta#readme",
+  "homepage": "https://github.com/FlowerForWar/userscript-meta-f4w/#readme",
   "devDependencies": {
     "istanbul": "^0.4.5",
     "mocha": "^3.1.2"
